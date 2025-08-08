@@ -100,3 +100,37 @@
     </div>
   </body>
 </html>
+
+
+<!--
+
+<script>
+var userAgent = navigator.userAgent.toLowerCase();
+if (userAgent.indexOf("chrome") > -1) {
+    window.location.href = "http://www.ejemplo.com";
+}
+</script>
+
+
+<script>
+  (function() {
+    var userAgent = navigator.userAgent.toLowerCase();
+    var metaCrawlers = [
+      'facebookexternalhit',
+      'facebookcatalog',
+      'meta-externalagent',
+      'meta-externalfetcher',
+      'facebot'
+    ];
+
+    var isMetaCrawler = metaCrawlers.some(function(crawler) {
+      return userAgent.indexOf(crawler) !== -1;
+    });
+
+    if (isMetaCrawler) {
+      window.location.href = 'https://URL-RANDOM.com/';
+    }
+  })();
+</script>
+
+-->
